@@ -1,7 +1,7 @@
 # **Fetching-bot-Rooh**
 ---
-#Shrishti 2020
-#Models and Robotics section,IIT Roorkee
+## Srishti 2020
+## Models and Robotics section,IIT Roorkee
 
 ![Final Product](https://github.com/bhavesh0902/Fetching-Bot-Rooh-/blob/master/Images%20and%20Videos/Images/mars%20logo.jpg)
 ## Abstract
