@@ -11,7 +11,7 @@ The main objective of our bot is to go and fetch any particular object in a defi
 *   And at last, returns to its starting position
 
 
-![Final Product](https://drive.google.com/uc?export=view&id=1DbmpsVM5FLTmIs3NrS3jagEupM1o0L00)
+![Final Product](https://github.com/bhavesh0902/Fetching-Bot-Rooh-/blob/master/Images%20%26%20Videos/Images/Picture1.jpg)
 
 ---
 
@@ -55,7 +55,7 @@ The FetchBot uses a two wheel differential for movement, the idea behind it bein
 The FetchBot uses two arms hinges at a place and rotated with a common metal servo motor inside the body with a two gear system. For fetching two mini servo motors are placed at the elbow of the arm. This mechanism helps the bot to fetch and lift the object.
 
 
-![ardino](https://drive.google.com/uc?export=view&id=136xMDsxgQkSZ9a9uXLmPkzLHNzQZUL4u)
+![](https://github.com/bhavesh0902/Fetching-Bot-Rooh-/blob/master/Images%20%26%20Videos/Images/Picture2.png)
 
 ---
 
@@ -65,7 +65,7 @@ The FetchBot uses two arms hinges at a place and rotated with a common metal ser
 
 
 We have used Arduino Uno to control the movement of the motors and get the feedback from the ultrasonic sensor.
-![ardino](https://drive.google.com/uc?export=view&id=1uZEnXZcSLwac5P-HQ3PJZ9JCLfTZANz3)
+![ardino](https://github.com/bhavesh0902/Fetching-Bot-Rooh-/blob/master/Images%20%26%20Videos/Images/arduino.jpg)
 
 ### Actuator
 
@@ -73,9 +73,9 @@ We have used Arduino Uno to control the movement of the motors and get the feedb
 The robot uses two 12 volt- 100 rpm motors. 
 We also have two servo motors for the sideways movement of the forearms to grab the object and a metal servo motor to rotate the arms together to lift and drop the object
 
-![Drive _type](https://drive.google.com/uc?export=view&id=17K6Wy9DG6X6cUVbixxXAh3TBCO5IiM2n)
-![Drive _type](https://drive.google.com/uc?export=view&id=1rZaeZZMQA5Cbym57hI6yN6p5PfymtqLR)
-![Drive _type](https://drive.google.com/uc?export=view&id=1PjLHX-RTiUkCA1pAf_ERCLv27CQ_DfPV)
+![Drive _type](https://github.com/bhavesh0902/Fetching-Bot-Rooh-/blob/master/Images%20%26%20Videos/Images/cytron%20motor%20driver.png)
+![Drive _type](https://github.com/bhavesh0902/Fetching-Bot-Rooh-/blob/master/Images%20%26%20Videos/Images/dc%20motor.jpg)
+![Drive _type](https://github.com/bhavesh0902/Fetching-Bot-Rooh-/blob/master/Images%20%26%20Videos/Images/servo%20motor.jpg)
 
 
 
