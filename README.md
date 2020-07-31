@@ -124,12 +124,11 @@ UART protocol
 More specifically, when you use Serial with Arduino and Raspberry Pi, you’re using the UART protocol. UART means “Universal Asynchronous Reception and Transmission”.
 
 ![Drive _type](https://github.com/bhavesh0902/Fetching-Bot-Rooh-/blob/master/Images%20and%20Videos/Images/rpi.png)
-#### Install python serial library
+### Install python serial library
 You need to install a library to be able to use the Serial interface with Python.To install it:
 *     python3 -m pip install pyserial
 This Python library is well-known and used in a lot of applications.
 We need to send the data from raspberry pi to arduino.
-Here we will use some basic data like hello etc for demonstration.Actually we need to send 1-0 according to the input from camera if it has detected the QR code in the particular direction or not accordingly.
 ---
 ## Cost Structure
 
