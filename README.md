@@ -76,17 +76,17 @@ The robot uses two 12 volt- 100 rpm motors.
 We also have two servo motors for the sideways movement of the forearms to grab the object and a metal servo motor to rotate the arms together to lift and drop the object
 
 
-![Drive _type](https://github.com/bhavesh0902/Fetching-Bot-Rooh-/blob/master/Images%20%26%20Videos/Images/arduino%20%26%20motordriver%20connection.jpeg)
+![Drive _type](https://github.com/bhavesh0902/Fetching-Bot-Rooh-/blob/master/Images%20and%20Videos/Images/arduino%20%26%20motordriver%20connection.jpeg)
 ### Motor Driver
 
 We used the Cytron motor driver to control the rotation of our dc motors easily. We preferred it over the L298 motor driver because of the simplicity in connection and coding of the motors.
 
-![Drive _type](https://github.com/bhavesh0902/Fetching-Bot-Rooh-/blob/master/Images%20%26%20Videos/Images/cytron%20motor%20driver.png)
+![Drive _type](https://github.com/bhavesh0902/Fetching-Bot-Rooh-/blob/master/Images%20and%20Videos/Images/cytron%20motor%20driver.png)
 
 ### Sensor
 We have used an ultrasonic sensor to get realtime feedback of the distance between the object and the bot. We have mounted it in the lower front of the bot to get the best measurements possible.
 
-![Drive _type](https://github.com/bhavesh0902/Fetching-Bot-Rooh-/blob/master/Images%20%26%20Videos/Images/ultrasonic%20sensor.jpg)
+![Drive _type](https://github.com/bhavesh0902/Fetching-Bot-Rooh-/blob/master/Images%20and%20Videos/Images/ultrasonic%20sensor.jpg)
 
 
 ## RASPBERRY PI 3 
