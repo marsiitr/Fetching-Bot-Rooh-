@@ -11,7 +11,7 @@ The main objective of our bot is to go and fetch any particular object in a defi
 *   And at last, returns to its starting position
 
 
-![Final Product](https://drive.google.com/uc?export=view&id=1DbmpsVM5FLTmIs3NrS3jagEupM1o0L00)
+![Final Product](https://github.com/bhavesh0902/Fetching-Bot-Rooh-/blob/master/Images%20%26%20Videos/Images/Picture1.jpg)
 
 ---
 
@@ -55,7 +55,7 @@ The FetchBot uses a two wheel differential for movement, the idea behind it bein
 The FetchBot uses two arms hinges at a place and rotated with a common metal servo motor inside the body with a two gear system. For fetching two mini servo motors are placed at the elbow of the arm. This mechanism helps the bot to fetch and lift the object.
 
 
-![ardino](https://drive.google.com/uc?export=view&id=136xMDsxgQkSZ9a9uXLmPkzLHNzQZUL4u)
+![](https://github.com/bhavesh0902/Fetching-Bot-Rooh-/blob/master/Images%20%26%20Videos/Images/Picture2.png)
 
 ---
 
@@ -65,7 +65,6 @@ The FetchBot uses two arms hinges at a place and rotated with a common metal ser
 
 
 We have used Arduino Uno to control the movement of the motors and get the feedback from the ultrasonic sensor.
-![ardino](https://drive.google.com/uc?export=view&id=1uZEnXZcSLwac5P-HQ3PJZ9JCLfTZANz3)
 
 ### Actuator
 
@@ -73,28 +72,24 @@ We have used Arduino Uno to control the movement of the motors and get the feedb
 The robot uses two 12 volt- 100 rpm motors. 
 We also have two servo motors for the sideways movement of the forearms to grab the object and a metal servo motor to rotate the arms together to lift and drop the object
 
-![Drive _type](https://drive.google.com/uc?export=view&id=17K6Wy9DG6X6cUVbixxXAh3TBCO5IiM2n)
-![Drive _type](https://drive.google.com/uc?export=view&id=1rZaeZZMQA5Cbym57hI6yN6p5PfymtqLR)
-![Drive _type](https://drive.google.com/uc?export=view&id=1PjLHX-RTiUkCA1pAf_ERCLv27CQ_DfPV)
 
-
-
+![Drive _type](https://github.com/bhavesh0902/Fetching-Bot-Rooh-/blob/master/Images%20%26%20Videos/Images/arduino%20%26%20motordriver%20connection.jpeg)
 ### Motor Driver
 
 We used the Cytron motor driver to control the rotation of our dc motors easily. We preferred it over the L298 motor driver because of the simplicity in connection and coding of the motors.
 
-![Drive _type](https://drive.google.com/uc?export=view&id=1XJS7mFX32alBhDS2o1bKd-bwr6YsM2mZ)
-
+![Drive _type](https://github.com/bhavesh0902/Fetching-Bot-Rooh-/blob/master/Images%20%26%20Videos/Images/cytron%20motor%20driver.png)
 
 ### Sensor
 We have used an ultrasonic sensor to get realtime feedback of the distance between the object and the bot. We have mounted it in the lower front of the bot to get the best measurements possible.
 
-![Drive _type](https://drive.google.com/uc?export=view&id=1agC6uLvsSantRdKc0ylTid7ujm8ReT0-)
+![Drive _type](https://github.com/bhavesh0902/Fetching-Bot-Rooh-/blob/master/Images%20%26%20Videos/Images/ultrasonic%20sensor.jpg)
 
 
 ## RASPBERRY PI 3 
 Also, we have use Raspberry pi 3 with usb camera to detect QR code which sends feedback to the Arduino Uno.
 
+![Drive _type](https://github.com/bhavesh0902/Fetching-Bot-Rooh-/blob/master/Images%20%26%20Videos/Images/Picture9.png)
 
 
 ### Installing OpenCV and python3 
@@ -119,11 +114,13 @@ The main objective of bot was to identify the object that he wants to fetch. To 
 Code identifies QR code with the help of detectandDecode() function that extracts data and coordinates of QR code in data , bbox . And then we use coordinates to make sure that QR code comes in the centre of the Camera so that bot moves in the correct direction. We also planned it to be done by colour identification in OpenCV in future.
 Z-bar is a library in python that is more concerned in QR code detection but we didn’tused it .    
 
+![Drive _type](https://github.com/bhavesh0902/Fetching-Bot-Rooh-/blob/master/Images%20%26%20Videos/Images/Picture11.png)
 ### SERIAL COMMUNICATION BETWEEN ARDUINO AND RASPBERRY PI
 Serial communication is simply a way to transfer data. The data will be sent sequentially, one bit at a time (1 byte = 8 bits), contrary to parallel communication, where many bits are sent at the same time.
 UART protocol
 More specifically, when you use Serial with Arduino and Raspberry Pi, you’re using the UART protocol. UART means “Universal Asynchronous Reception and Transmission”.
 
+![Drive _type](https://github.com/bhavesh0902/Fetching-Bot-Rooh-/blob/master/Images%20%26%20Videos/Images/Picture12.png)
 ### Install Python Serial library on Raspberry Pi
 You need to install a library to be able to use the Serial interface with Python.To install it:
 *     python3 -m pip install pyserial
@@ -180,10 +177,10 @@ Here we will use some basic data like hello etc for demonstration.Actually we ne
 ---
 ## References
 
-<https://pythonprogramming.net/introduction-raspberry-pi-tutorials/>
-<https://www.arduino.cc/en/Guide/ArduinoUno>
-<https://www.solidworks.com>
-<https://roboticsbackend.com/raspberry-pi-arduino-serial-communication/>
+* <https://pythonprogramming.net/introduction-raspberry-pi-tutorials/>
+* <https://www.arduino.cc/en/Guide/ArduinoUno>
+* <https://www.solidworks.com>
+* <https://roboticsbackend.com/raspberry-pi-arduino-serial-communication/>
 
 
 
