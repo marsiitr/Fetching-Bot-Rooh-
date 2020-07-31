@@ -173,7 +173,7 @@ You need to install a library to be able to use the Serial interface with Python
 ---
 ## Mentors
 
-1. Dhruv Sehgal
+1. [Dhruv Sehgal](https://github.com/Dhruv1064)
 2. Vedant Neekhra
 ---
 ## References
