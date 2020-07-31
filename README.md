@@ -31,7 +31,7 @@ It can be used for general household purposes and even in distribution chain of 
 * SD CARD 
 
 ---
-## Mechanical Aspect of the Design
+## **Mechanical Aspect of the Design**
 
 ### Chassis
 
@@ -59,7 +59,7 @@ The FetchBot uses two arms hinges at a place and rotated with a common metal ser
 
 ---
 
-## Electronics Aspect of the Design
+## **Electronics Aspect of the Design**
 
 ### Microcontroller
 
