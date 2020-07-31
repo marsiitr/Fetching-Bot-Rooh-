@@ -20,6 +20,7 @@ The main objective of our bot is to go and fetch any particular object in a defi
 
 ## Motivation
 It can be used for general household purposes and even in distribution chain of any product, thus making our job easy.
+
 ![Final Product](https://github.com/bhavesh0902/Fetching-Bot-Rooh-/blob/master/Images%20and%20Videos/Images/Flowchart%20final.jpg)
 
 ## Components
