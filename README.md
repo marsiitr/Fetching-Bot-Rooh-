@@ -127,7 +127,6 @@ More specifically, when you use Serial with Arduino and Raspberry Pi, you’re u
 ### Install python serial library
 You need to install a library to be able to use the Serial interface with Python.To install it:
 *     python3 -m pip install pyserial
-This Python library is well-known and used in a lot of applications.
 ---
 ## Cost Structure
 
