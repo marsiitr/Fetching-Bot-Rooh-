@@ -89,7 +89,7 @@ We have used an ultrasonic sensor to get realtime feedback of the distance betwe
 ![Drive _type](https://github.com/bhavesh0902/Fetching-Bot-Rooh-/blob/master/Images%20and%20Videos/Images/ultrasonic%20sensor.jpg)
 
 
-## RASPBERRY PI 3 
+### RASPBERRY PI 3 
 Also, we have use Raspberry pi 3 with usb camera to detect QR code which sends feedback to the Arduino Uno.
 
 ![Drive _type](https://github.com/bhavesh0902/Fetching-Bot-Rooh-/blob/master/Images%20and%20Videos/Images/rpi.png)
@@ -110,7 +110,7 @@ Steps to Install OpenCV
 
 *     pip3 install opencv-python
  ---
-## QR Code Scanner with OpenCV
+### QR Code Scanner with OpenCV
 ### OBJECTIVE:
 The main objective of bot was to identify the object that he wants to fetch. To do that we thought to identify QR code on the object with the help of a camera in bot face, and then bot moves on that way after recognizing QR code.
 ### ABOUT CODE:
@@ -124,7 +124,7 @@ UART protocol
 More specifically, when you use Serial with Arduino and Raspberry Pi, you’re using the UART protocol. UART means “Universal Asynchronous Reception and Transmission”.
 
 ![Drive _type](https://github.com/bhavesh0902/Fetching-Bot-Rooh-/blob/master/Images%20and%20Videos/Images/rpi.png)
-### Install Python Serial library on Raspberry Pi
+#### Install python serial library
 You need to install a library to be able to use the Serial interface with Python.To install it:
 *     python3 -m pip install pyserial
 This Python library is well-known and used in a lot of applications.
@@ -167,11 +167,11 @@ Here we will use some basic data like hello etc for demonstration.Actually we ne
 ## **TEAM MEMBERS**
 
 1. [Bhavesh Shamnani](https://github.com/bhavesh0902)
-2. [Navtej Mishra](https://github.com/navtej16)
-3. [Harsh Kumar](https://github.com/ohhershey)
-4. Mayank Shukla
-5. [Yash Raj](https://github.com/yashraj-iitr)
-6. Vaibhav Anuragi
+2. [Harsh Kumar](https://github.com/ohhershey)
+3. Mayank Shukla
+4. [Navtej Mishra](https://github.com/navtej16)
+5. Vaibhav Anuragi
+6. [Yash Raj](https://github.com/yashraj-iitr)
 ---
 ## Mentors
 
