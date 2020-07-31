@@ -1,6 +1,9 @@
 # **Fetching-bot-Rooh**
 ---
+#Shrishti 2020
+#Models and Robotics section,IIT Roorkee
 
+![Final Product](https://github.com/bhavesh0902/Fetching-Bot-Rooh-/blob/master/Images%20and%20Videos/Images/mars%20logo.jpg)
 ## Abstract
 
 The main objective of our bot is to go and fetch any particular object in a defined area. It works in the following manner:
@@ -11,7 +14,7 @@ The main objective of our bot is to go and fetch any particular object in a defi
 *   And at last, returns to its starting position
 
 
-![Final Product](https://github.com/bhavesh0902/Fetching-Bot-Rooh-/blob/master/Images%20%26%20Videos/Images/Picture1.jpg)
+![Final Product](https://github.com/bhavesh0902/Fetching-Bot-Rooh-/blob/master/Images%20and%20Videos/Images/bot.jpg)
 
 ---
 
@@ -55,7 +58,7 @@ The FetchBot uses a two wheel differential for movement, the idea behind it bein
 The FetchBot uses two arms hinges at a place and rotated with a common metal servo motor inside the body with a two gear system. For fetching two mini servo motors are placed at the elbow of the arm. This mechanism helps the bot to fetch and lift the object.
 
 
-![](https://github.com/bhavesh0902/Fetching-Bot-Rooh-/blob/master/Images%20%26%20Videos/Images/Picture2.png)
+![](https://github.com/bhavesh0902/Fetching-Bot-Rooh-/blob/master/Images%20and%20Videos/Images/bot%20cad.png)
 
 ---
 
@@ -89,7 +92,7 @@ We have used an ultrasonic sensor to get realtime feedback of the distance betwe
 ## RASPBERRY PI 3 
 Also, we have use Raspberry pi 3 with usb camera to detect QR code which sends feedback to the Arduino Uno.
 
-![Drive _type](https://github.com/bhavesh0902/Fetching-Bot-Rooh-/blob/master/Images%20%26%20Videos/Images/Picture9.png)
+![Drive _type](https://github.com/bhavesh0902/Fetching-Bot-Rooh-/blob/master/Images%20and%20Videos/Images/rpi.png)
 
 
 ### Installing OpenCV and python3 
@@ -114,13 +117,13 @@ The main objective of bot was to identify the object that he wants to fetch. To 
 Code identifies QR code with the help of detectandDecode() function that extracts data and coordinates of QR code in data , bbox . And then we use coordinates to make sure that QR code comes in the centre of the Camera so that bot moves in the correct direction. We also planned it to be done by colour identification in OpenCV in future.
 Z-bar is a library in python that is more concerned in QR code detection but we didn’tused it .    
 
-![Drive _type](https://github.com/bhavesh0902/Fetching-Bot-Rooh-/blob/master/Images%20%26%20Videos/Images/Picture11.png)
+![Drive _type](https://github.com/bhavesh0902/Fetching-Bot-Rooh-/blob/master/Images%20and%20Videos/Images/QR%20recognition.png)
 ### SERIAL COMMUNICATION BETWEEN ARDUINO AND RASPBERRY PI
 Serial communication is simply a way to transfer data. The data will be sent sequentially, one bit at a time (1 byte = 8 bits), contrary to parallel communication, where many bits are sent at the same time.
 UART protocol
 More specifically, when you use Serial with Arduino and Raspberry Pi, you’re using the UART protocol. UART means “Universal Asynchronous Reception and Transmission”.
 
-![Drive _type](https://github.com/bhavesh0902/Fetching-Bot-Rooh-/blob/master/Images%20%26%20Videos/Images/Picture12.png)
+![Drive _type](https://github.com/bhavesh0902/Fetching-Bot-Rooh-/blob/master/Images%20and%20Videos/Images/rpi.png)
 ### Install Python Serial library on Raspberry Pi
 You need to install a library to be able to use the Serial interface with Python.To install it:
 *     python3 -m pip install pyserial
