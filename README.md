@@ -65,7 +65,6 @@ The FetchBot uses two arms hinges at a place and rotated with a common metal ser
 
 
 We have used Arduino Uno to control the movement of the motors and get the feedback from the ultrasonic sensor.
-![ardino](https://github.com/bhavesh0902/Fetching-Bot-Rooh-/blob/master/Images%20%26%20Videos/Images/arduino.jpg)
 
 ### Actuator
 
@@ -178,10 +177,10 @@ Here we will use some basic data like hello etc for demonstration.Actually we ne
 ---
 ## References
 
-<https://pythonprogramming.net/introduction-raspberry-pi-tutorials/>
-<https://www.arduino.cc/en/Guide/ArduinoUno>
-<https://www.solidworks.com>
-<https://roboticsbackend.com/raspberry-pi-arduino-serial-communication/>
+* <https://pythonprogramming.net/introduction-raspberry-pi-tutorials/>
+* <https://www.arduino.cc/en/Guide/ArduinoUno>
+* <https://www.solidworks.com>
+* <https://roboticsbackend.com/raspberry-pi-arduino-serial-communication/>
 
 
 
