@@ -1,9 +1,7 @@
 # **Fetching-bot-Rooh**
 ---
-## Srishti 2020
-## Models and Robotics section,IIT Roorkee
+Srishti 2020
 
-![Final Product](https://github.com/bhavesh0902/Fetching-Bot-Rooh-/blob/master/Images%20and%20Videos/Images/mars%20logo.jpg)
 ## Abstract
 
 The main objective of our bot is to go and fetch any particular object in a defined area. It works in the following manner:
@@ -21,6 +19,7 @@ The main objective of our bot is to go and fetch any particular object in a defi
 ## Motivation
 It can be used for general household purposes and even in distribution chain of any product, thus making our job easy.
 
+## Workflow
 ![Final Product](https://github.com/bhavesh0902/Fetching-Bot-Rooh-/blob/master/Images%20and%20Videos/Images/Flowchart%20final.jpg)
 
 ## Components
