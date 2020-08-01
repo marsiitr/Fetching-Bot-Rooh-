@@ -5,11 +5,11 @@ Srishti 2020
 ## Abstract
 
 The main objective of our bot is to go and fetch any particular object in a defined area. It works in the following manner:
-*   Search for the QR code on the object in defined area
-*    Scans the QR code just for verifying the object
-*    Calculate the distance between it and the object
-*  Go and pick the object
-*   And at last, returns to its starting position
+*  Searches for the QR code on the object in defined area.
+*  Scans the QR code just for verifying the object
+*  Aligns in the direction of code and moves towards it.
+*  Fetches the object upon reaching it.
+
 
 
 ![Final Product](https://github.com/bhavesh0902/Fetching-Bot-Rooh-/blob/master/Images%20and%20Videos/Images/bot.jpg)
@@ -146,21 +146,20 @@ You need to install a library to be able to use the Serial interface with Python
 | *Total*                         | *6715*  |
 ---
 ## Applications
-*   Can be used in storing or moving baggage from one position to  another.
-*  Future of online delivering bots, the location will me entered through AI and it will  automatically travel to particular location and deliver the parcel.
-* Can also be used in Hotels as waiters.
-
+*   Can be used in distribution process of factories.
+*  Can be used for various domestic purposes.
+*  As shopping bots, to deliver products door-to-door
 ---
 ## Limitations
-*   The weight that Fetchbot can lift is limited so that point should be taken into account during the work.
-* The camera that we are using for image processing is attached to out laptop with wires, so that might become a bit hectic to handle.
-*  It can only be worked in a particular defined area.
-* The object should be at limited angle from the camera, otherwise it will take time for bot to rotate and scan for the object again.
+*   The weight that bot can lift is limited so that point should be taken into account during the work.
+*   We have a predefined area within which our bot works.
+
 ---
 ## Future Improvements
 
-*   The connection between the head and main body can be made wireless, so that head of bot can take 360° rotation for further time improvement in scanning.
-*    Defined area can be omitted, so that it can work in any area. 
+*  It can be extended to be used for a wide variety of objects, not only which have QR code on them. An example is color blob detection.
+*  Its field of working can be increased and load limit can also be made variable.
+
 ---
 ## **TEAM MEMBERS**
 
